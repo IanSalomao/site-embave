@@ -1,0 +1,33 @@
+:root {
+  /* Cores primárias da marca */
+  --color-primary-blue: #1B3A6B;
+  --color-primary-blue-dark: #122849;
+  --color-primary-blue-light: #2C5490;
+
+  --color-accent-yellow: #F5B81C;
+  --color-accent-yellow-dark: #D89E0A;
+  --color-accent-yellow-light: #FFD45C;
+
+  /* Neutros */
+  --color-white: #FFFFFF;
+  --color-off-white: #F8F9FB;
+  --color-gray-100: #EEF1F5;
+  --color-gray-300: #C8CDD6;
+  --color-gray-600: #5A6473;
+  --color-gray-900: #1A1F2B;
+
+  /* Semânticas */
+  --color-whatsapp: #25D366;
+  --color-success: #22C55E;
+
+  /* Tipografia */
+  --font-display: 'Poppins', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Espaçamento e Raio */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --shadow-soft: 0 4px 20px rgba(27, 58, 107, 0.08);
+  --shadow-medium: 0 10px 40px rgba(27, 58, 107, 0.12);
+}

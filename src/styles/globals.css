@@ -1,0 +1,93 @@
+@import './theme.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-body);
+    color: var(--color-gray-900);
+    background-color: var(--color-white);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Acessibilidade: foco visível */
+  :focus-visible {
+    outline: 3px solid var(--color-accent-yellow);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  /* Scrollbar personalizada */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--color-gray-100);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-primary-blue);
+    border-radius: 3px;
+  }
+}
+
+@layer components {
+  .section-tag {
+    @apply inline-block text-xs font-semibold tracking-widest uppercase px-4 py-1.5 rounded-full mb-4;
+    color: var(--color-accent-yellow);
+    background: rgba(245, 184, 28, 0.12);
+    font-family: var(--font-display);
+  }
+
+  .section-tag-white {
+    @apply inline-block text-xs font-semibold tracking-widest uppercase px-4 py-1.5 rounded-full mb-4;
+    color: var(--color-accent-yellow);
+    border: 1px solid rgba(245, 184, 28, 0.3);
+    font-family: var(--font-display);
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-primary text-white font-semibold px-6 py-3.5 rounded-md transition-all duration-300 hover:bg-primary-dark hover:shadow-strong min-h-[44px];
+    font-family: var(--font-display);
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center gap-2 border-2 border-primary text-primary font-semibold px-6 py-3.5 rounded-md transition-all duration-300 hover:bg-primary hover:text-white min-h-[44px];
+    font-family: var(--font-display);
+  }
+
+  .btn-whatsapp {
+    @apply inline-flex items-center gap-2 text-white font-semibold px-6 py-3.5 rounded-md transition-all duration-300 hover:brightness-110 hover:shadow-medium min-h-[44px];
+    background-color: var(--color-whatsapp);
+    font-family: var(--font-display);
+  }
+
+  .img-placeholder {
+    @apply bg-gray-100 flex items-center justify-center text-gray-300;
+    background: linear-gradient(135deg, #EEF1F5 0%, #C8CDD6 100%);
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
