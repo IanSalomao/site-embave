@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import { MessageCircle, ChevronDown, CheckCircle2, Star } from 'lucide-react'
 import { useReducedMotion } from '../hooks/useReducedMotion'
 
-const WHATSAPP_URL = 'https://wa.me/5571999999999?text=Ol%C3%A1%21+Gostaria+de+solicitar+atendimento+sobre+documenta%C3%A7%C3%A3o+veicular.'
+const WHATSAPP_URL = 'https://wa.me/5575988429599?text=Ol%C3%A1%21+Gostaria+de+solicitar+atendimento+sobre+documenta%C3%A7%C3%A3o+veicular.'
 
 const proofItems = [
   'Atendimento ágil',

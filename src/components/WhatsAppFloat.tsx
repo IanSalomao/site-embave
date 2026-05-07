@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { MessageCircle } from 'lucide-react'
 import { useReducedMotion } from '../hooks/useReducedMotion'
 
-const WHATSAPP_URL = 'https://wa.me/5571999999999?text=Ol%C3%A1%21+Vim+pelo+site+e+gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+os+servi%C3%A7os.'
+const WHATSAPP_URL = 'https://wa.me/5575988429599?text=Ol%C3%A1%21+Vim+pelo+site+e+gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+os+servi%C3%A7os.'
 
 export default function WhatsAppFloat() {
   const [hovered, setHovered] = useState(false)

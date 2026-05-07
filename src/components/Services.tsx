@@ -8,7 +8,7 @@ function encodeMessage(msg: string) {
 }
 
 function buildWhatsAppUrl(message: string) {
-  return `https://wa.me/5571999999999?text=${encodeMessage(message)}`
+  return `https://wa.me/5575988429599?text=${encodeMessage(message)}`
 }
 
 const container = {
@@ -142,7 +142,7 @@ export default function Services() {
             Não encontrou o serviço que precisa?
           </p>
           <a
-            href="https://wa.me/5571999999999?text=Ol%C3%A1%21+Vim+pelo+site+e+tenho+uma+d%C3%BAvida+sobre+um+servi%C3%A7o."
+            href="https://wa.me/5575988429599?text=Ol%C3%A1%21+Vim+pelo+site+e+tenho+uma+d%C3%BAvida+sobre+um+servi%C3%A7o."
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary"

@@ -4,7 +4,7 @@ import { Plus, Minus, MessageCircle } from 'lucide-react'
 import { faqItems } from '../data/faq'
 import { useReducedMotion } from '../hooks/useReducedMotion'
 
-const WHATSAPP_URL = 'https://wa.me/5571999999999?text=Ol%C3%A1%21+Tenho+uma+d%C3%BAvida+que+n%C3%A3o+encontrei+no+site+e+gostaria+de+esclarecimentos.'
+const WHATSAPP_URL = 'https://wa.me/5575988429599?text=Ol%C3%A1%21+Tenho+uma+d%C3%BAvida+que+n%C3%A3o+encontrei+no+site+e+gostaria+de+esclarecimentos.'
 
 export default function FAQ() {
   const [openId, setOpenId] = useState<string | null>(null)

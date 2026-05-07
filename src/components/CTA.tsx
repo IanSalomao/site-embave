@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import { MessageCircle, Clock } from 'lucide-react'
 import { useReducedMotion } from '../hooks/useReducedMotion'
 
-const WHATSAPP_URL = 'https://wa.me/5571999999999?text=Ol%C3%A1%21+Estou+pronto+para+resolver+a+documenta%C3%A7%C3%A3o+do+meu+ve%C3%ADculo.+Pode+me+ajudar%3F'
+const WHATSAPP_URL = 'https://wa.me/5575988429599?text=Ol%C3%A1%21+Estou+pronto+para+resolver+a+documenta%C3%A7%C3%A3o+do+meu+ve%C3%ADculo.+Pode+me+ajudar%3F'
 
 function FloatingShape({
   className,

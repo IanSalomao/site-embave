@@ -27,9 +27,9 @@ export default function Footer() {
               className="inline-block mb-5"
             >
               <img
-                src="/images/logo_embave.png"
+                src="/images/logo_embave_negativa.png"
                 alt="EMBAVE — Emplacadora Baiana de Veículos"
-                className="h-12 w-auto object-contain brightness-0 invert"
+                className="h-12 w-auto object-contain "
                 width={120}
                 height={48}
                 loading="lazy"
@@ -98,7 +98,7 @@ export default function Footer() {
               <div className="flex items-center gap-3 text-gray-400 text-sm">
                 <Phone size={16} className="text-accent-DEFAULT flex-shrink-0" />
                 <a
-                  href="tel:+5571999999999"
+                  href="tel:+5575988429599"
                   className="hover:text-accent-DEFAULT transition-colors duration-200"
                 >
                   (71) 9 9999-9999
